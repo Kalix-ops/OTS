@@ -29,7 +29,7 @@
 #     -e ONETIMESECRET_SECRET="<put your own secret here>" \
 #     onetimesecret
 
-FROM ruby:2.7.6
+FROM ruby:3.1
 
 WORKDIR /usr/src/app
 COPY Gemfile ./
